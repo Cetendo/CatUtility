@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.cetendo.catutility.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientConnectionInvoker",
+    "MixinClientPlayNetworkHandler"
+  ],
+  "client": [
+    "MixinMinecraftClient",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

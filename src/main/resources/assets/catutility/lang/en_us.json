@@ -1,0 +1,55 @@
+{
+  "text.config.catutility.prefix": [
+    "",
+    { "text": "[", "color": "dark_gray" },
+    { "text": "Cat", "color": "#32cd32" },
+    { "text": "Utility", "color": "#bb1a34" },
+    { "text": "]", "color": "dark_gray" }
+  ],
+  "text.config.catutility.title": [
+    { "translate": "text.config.catutility.prefix" },
+    " Configuration"
+  ],
+  "text.config.catutility.optiongroup.reach": "Reach Options",
+  "text.config.catutility.option.reach": "Cats Reach?",
+  "text.config.catutility.option.reach.tooltip": "Your Reach",
+
+
+
+  "itemGroup.redstone": [
+    { "translate": "item.minecraft.redstone"}
+  ],
+  "item.minecraft.redstone": [
+    { "text": "Ceddi", "color": "red" , "bold": true},
+    { "text": "stone", "color": "white" , "bold": false}
+  ],
+  "block.minecraft.redstone_block":[
+    "Block of ",
+    { "translate": "item.minecraft.redstone"}
+  ],
+  "block.minecraft.redstone_lamp":[
+    { "translate": "item.minecraft.redstone"},
+    { "text": " Lamp", "color": "white" }
+  ],
+  "block.minecraft.redstone_ore":[
+    { "translate": "item.minecraft.redstone"},
+    { "text": " Ore", "color": "white" }
+  ],
+  "block.minecraft.redstone_torch":[
+    { "translate": "item.minecraft.redstone"},
+    { "text": " Torch", "color": "white" }
+  ],
+  "block.minecraft.deepslate_redstone_ore":[
+    "Deepslate ",
+    { "translate": "item.minecraft.redstone"},
+    { "text": " Ore", "color": "white" }
+  ],
+  "block.minecraft.repeater":[
+    { "translate": "item.minecraft.redstone"},
+    { "text": " Repeater", "color": "white" }
+  ],
+  "block.minecraft.comparator":[
+    { "translate": "item.minecraft.redstone"},
+    { "text": " Comparator", "color": "white" }
+  ]
+}

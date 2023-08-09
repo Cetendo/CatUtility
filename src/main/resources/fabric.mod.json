@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "catutility",
+  "version": "1-miao",
+  "name": "CatUtility",
+  "description": "Cats Maybe",
+  "authors": [
+    "Cetendo",
+    "Der Maisman",
+    "some Cats (i guess)"
+  ],
+  "contact": {
+    "repo": "https://github.com/Cetendo/CatUtility"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/catutility/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.cetendo.catutility.CatUtilityClient"
+    ],
+    "main": [
+      "net.cetendo.catutility.CatUtility"
+    ],
+    "modmenu": [
+      "net.cetendo.catutility.config.ModMenu"
+    ]
+  },
+  "mixins": [
+    "catutility.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.15",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "yet-another-config-lib": ">=2.2.0-for-1.19.2",
+    "modmenu": ">=4.1.2",
+    "owo-lib": ">=0.9.3+1.19"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": false,
+      "parent": {
+        "id": "minecraft",
+        "name": "Fake Mod",
+        "description": "Do cool stuff with this fake mod",
+        "icon": "assets/catutility/fake-icon.png"
+      }
+    }
+  }
+}
